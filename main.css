@@ -1,0 +1,65 @@
+*
+*::after,
+*::befor{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 53, 28);
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.arsenal-title {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.wrapper{
+    max-width: 960px;
+    background-color:aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.wrapper h1{
+    line-height: 150%;
+}
+
+.imgArticle{
+    width: 100%;
+}
+
+.wrapper p{
+    margin-bottom: 15px;
+}
+
+.wrapper a{
+    color: white;
+    background-color:rgb(150, 85, 85);
+    padding: 35px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    text-align: center;    
+    border-radius: 25px;      
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.wrapper a:hover{
+    color: rgb(150, 85, 85);
+    background-color: white;
+}
+
+.imgBtn{
+    margin-right: 20px;
+    height: 18px;
+}
